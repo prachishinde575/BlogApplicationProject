@@ -27,7 +27,7 @@ public class UserController {
 	@Autowired
 	private UserService  userService ;
 	
-	// Post -  ceate User
+	// Post -  create User
 	@PostMapping("/")
 	public ResponseEntity<UserDto> createUser(@RequestBody UserDto userDto)
 	{
